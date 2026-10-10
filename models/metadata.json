@@ -1,0 +1,41 @@
+{
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "random_state": 42,
+  "test_size": 0.20132013201320131,
+  "n_train": 242,
+  "n_test": 61,
+  "train_accuracies": {
+    "XGBoost": 0.9958677685950413,
+    "LVQ (GLVQ)": 0.8347107438016529,
+    "Gaussian Naive Bayes": 0.8512396694214877
+  },
+  "trained_at": "2026-10-10T19:03:06",
+  "library_versions": {
+    "python": "3.12",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.5.2",
+    "xgboost": "3.4.1",
+    "sklvq": "0.1.2"
+  },
+  "model_files": {
+    "XGBoost": "xgb_pipeline.joblib",
+    "LVQ (GLVQ)": "lvq_pipeline.joblib",
+    "Gaussian Naive Bayes": "gnb_pipeline.joblib"
+  },
+  "notes": "Each .joblib file is a full scikit-learn Pipeline (imputer [+ scaler] + model). Pass a raw 13-column dataframe in config.FEATURE_NAMES order."
+}

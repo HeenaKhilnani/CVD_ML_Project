@@ -1,0 +1,59 @@
+{
+  "source_file": "/Users/heenakhilnani/Desktop/CVD_ML_Project/data/processed.cleveland.data",
+  "n_rows": 303,
+  "n_columns": 14,
+  "n_features": 13,
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "target_name": "num",
+  "missing_values": {
+    "total_missing_cells": 6,
+    "per_column": {
+      "age": 0,
+      "sex": 0,
+      "cp": 0,
+      "trestbps": 0,
+      "chol": 0,
+      "fbs": 0,
+      "restecg": 0,
+      "thalach": 0,
+      "exang": 0,
+      "oldpeak": 0,
+      "slope": 0,
+      "ca": 4,
+      "thal": 2
+    }
+  },
+  "original_target_counts": {
+    "0": 164,
+    "1": 55,
+    "2": 36,
+    "3": 35,
+    "4": 13
+  },
+  "binary_class_distribution": {
+    "counts": {
+      "0": 164,
+      "1": 139
+    },
+    "percentages": {
+      "0": 54.13,
+      "1": 45.87
+    }
+  },
+  "random_state": 42,
+  "test_size": 0.2
+}
