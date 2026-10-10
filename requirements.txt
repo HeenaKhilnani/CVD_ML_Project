@@ -1,0 +1,23 @@
+# CVD Machine Learning Project - Python dependencies
+#
+# IMPORTANT (macOS): XGBoost needs Apple's OpenMP runtime. Install it once with:
+#     brew install libomp
+#
+# Install everything else with:
+#     python3.12 -m venv .venv
+#     .venv/bin/pip install -r requirements.txt
+#
+# scikit-learn is pinned to 1.5.x because the genuine LVQ library (sklvq 0.1.2)
+# still uses a scikit-learn API that was removed in scikit-learn 1.6.
+
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.5.2
+xgboost==3.4.1
+sklvq==0.1.2
+shap==0.53.0
+streamlit==1.65.0
+joblib==1.6.0
+matplotlib==3.11.2
+seaborn==0.13.2
